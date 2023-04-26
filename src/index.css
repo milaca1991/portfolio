@@ -27,8 +27,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width:100%;
+  height: 100%;
 }
 
 h1 {
@@ -74,9 +74,10 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #312f2f;
   color: #fff;
-  height: 60px;
+  height: 10vh;
+  width: 100%;
   padding: 0 20px;
 }
 
@@ -84,18 +85,58 @@ button:focus-visible {
   display: flex;
   list-style: none;
   margin: 0;
+  width: 90%;
   padding: 0;
+  align-items: center;
+  justify-content:space-between;
+  
 }
 
 .navbar li {
-  margin: 0 10px;
+  margin: 0 10px; 
+  display: block ;
 }
 
 .navbar a {
   color: #fff;
   text-decoration: none;
+  font-family:sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration:dashed;
+  color: #FD5D5D;
+}
+
+
+/*styles home*/
+
+h1{
+
+  text-align: center;
+}
+
+.icon{
+
+  height: 100%;
+  width: 10%;
+  border-radius: 25px;
+  margin-right: 2%;
+
+
+
+}
+
+
+.iconContainer{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
 }
