@@ -1,6 +1,14 @@
-function Projects(){
+import React from "react";
+import Card from "./Card";
 
-    return <h1>Projects</h1>
-}
+
+const Projects = () => {
+  return (
+    <>
+      <Card></Card>
+
+    </>
+  );
+};
 
 export default Projects;
