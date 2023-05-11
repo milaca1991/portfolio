@@ -22,7 +22,7 @@ function Contact(){
        <Wapicon phoneNumber={phoneNumber}/>
        <Mailicon email={email}/>
 
-       <h2 className="contact">Let's talk about you goals... <br /> And how can i help you to achieve them! </h2>
+       <h2 className="contact">Let's talk about your goals... <br /> And how can i help you to achieve them! </h2>
        </div>
         </>
 
