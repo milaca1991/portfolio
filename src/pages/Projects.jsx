@@ -5,8 +5,10 @@ import Card from "./Card";
 const Projects = () => {
   return (
     <>
-      <Card></Card>
 
+
+      <Card></Card>
+ 
     </>
   );
 };
