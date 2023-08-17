@@ -13,16 +13,14 @@ function Navbar() {
           </div>
    
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">Sobre mí</Link>
+      </li>
+  
+      <li>
+        <Link to="/Projects"> Proyectos</Link>
       </li>
       <li>
-        <Link to="/About">About</Link>
-      </li>
-      <li>
-        <Link to="/Projects"> Projects</Link>
-      </li>
-      <li>
-        <Link to="/Contact">Contact</Link>
+        <Link to="/Contact">Contacto</Link>
       </li>
 
     </ul>

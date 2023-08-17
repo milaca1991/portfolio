@@ -124,9 +124,9 @@ button:focus-visible {
 
 
 h1{
-
+  margin-top: 5%;
   text-align: center;
-  margin: 0%;
+
 }
 
 .icon{
@@ -148,6 +148,27 @@ align-items: center;
 
 
 }
+.container-parrafo{
+
+display: flex;
+
+
+
+
+}
+
+.parrafo{
+
+text-align: justify;
+
+
+}
+
+
+
+
+
+
 
 /*styles projects*/
 
